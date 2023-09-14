@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Pacific",
+        "depth": "11000 meters",
+        "temperature": "26 grados centigrados",
+        "continent": "America"
+    },
+    {
+        "name":"Atlantic",
+        "depth": "8605 meters",
+        "temperature": "15 grados centigrados",
+        "continent": "Europa"
+    }
+]
