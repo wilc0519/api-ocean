@@ -78,6 +78,7 @@ app.post("/oceans", bodyParser.json(), async (request, response) => {
 
   const new_ocean = { id, name, depth, temperature, continent }
   const ocean = getOceans.find(ocean => ocean.id == id || ocean.name == name)
+  console.log(ocean)
   if (!ocean) {
     getOceans.push(new_ocean)
     fs.writeFileSync("src/ocean.json", JSON.stringify(getOceans))
